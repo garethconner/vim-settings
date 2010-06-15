@@ -4,3 +4,7 @@ syntax on
 set number
 set nocompatible
 set hidden
+colorscheme sienna 
+
+" Set the tag file search order
+set tags=./tags;

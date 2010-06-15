@@ -349,4 +349,3 @@ if exists("g:zenburn_color_also_Ignore")
 endif
 
 " TODO check for more obscure syntax groups that they're ok
-
