@@ -8,3 +8,4 @@ colorscheme sienna
 
 " Set the tag file search order
 set tags=./tags;
+let g:LustyJugglerSuppressRubyWarning = 1
