@@ -6,6 +6,7 @@ ln -nfs ~/.vim/vimrc .vimrc
 **************************************************
 ***Tips and Tricks
 **************************************************
+instead of ESC, try using ctrl+[
 
 delete text inside quotes:
 ci" (change inside quotes)
@@ -36,6 +37,28 @@ ctags -R --exclude=.git --exclude=log *
 ***OR TO INCLUDE THE RAILS SOURCE***
 ctags -R --exclude=.git --exclude=log * ~/src/rails
 
+buffer manipulation:
+dd = cut line
+d2d = cut 2 lines
+d50d = cut 50 lines
+d[anynumber]d = cut anynum lines
+yy = copy line
+y2y = copy 2 lines.. etc
+p = paste copy buffer
+dw = cut word
+d2w = cut next two words
+db = cut previous word
+d2b = cut previous 2 words
+d$ = cut until end of line
+d^ = cut until beginning of line
+dt( = cut until next paren
+dT( = cut until previous paren at insert
+r( = replace current character with (
+r[character] = replaces current character with [character]
+>> = tab in line
+<< = tab back line
+2>> = tab in next 2 lines
+. = do last succession of vim commands (i.e. if you appended, typed the word bla, then hit esc. press the down arrow and . it will append bla to the end of the next line)
 
 Editing commands
 0 (zero)		go to beginning of line
